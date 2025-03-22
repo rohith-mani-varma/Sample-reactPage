@@ -1,4 +1,4 @@
-import DataCenterImg from "../../public/istockphoto-1350722246-1024x1024.jpg";
+import DataCenterImg from "/istockphoto-1350722246-1024x1024.jpg";
 export default function HeroSection(){
     return(
         <>
