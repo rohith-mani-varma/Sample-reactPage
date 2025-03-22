@@ -2,6 +2,10 @@
 
 Hi, this is Rohith Mani Varma, and this is my first React project - a responsive landing page for TensorFleet, an AI compute power provider focused on training AI/LLM models.
 
+## Live Demo
+
+**[View Live Demo](https://sample-react-page.vercel.app/)**
+
 ## About This Project
 
 This project is a modern, responsive landing page built using React and styled with Tailwind CSS. It showcases a fictional company called TensorFleet that provides high-performance computing infrastructure optimized for AI and machine learning workloads.

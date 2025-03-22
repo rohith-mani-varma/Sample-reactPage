@@ -58,7 +58,7 @@ export default function Contact(){
                                     </div>
                                     <div>
                                         <h4 className="font-medium text-gray-900">Office Location</h4>
-                                        <p className="text-gray-600 mt-1">123 AI Campus, Palo Alto, CA 94301</p>
+                                        <p className="text-gray-600 mt-1">43 St Martin st, Banglore</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start">
@@ -69,7 +69,7 @@ export default function Contact(){
                                     </div>
                                     <div>
                                         <h4 className="font-medium text-gray-900">Phone Number</h4>
-                                        <p className="text-gray-600 mt-1">+1 (650) 555-0123</p>
+                                        <p className="text-gray-600 mt-1">+1 (843) 746-9348</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start">
@@ -80,7 +80,7 @@ export default function Contact(){
                                     </div>
                                     <div>
                                         <h4 className="font-medium text-gray-900">Email Address</h4>
-                                        <p className="text-gray-600 mt-1">contact@tensorfleet.ai</p>
+                                        <p className="text-gray-600 mt-1">contact@tensorfleet.com</p>
                                     </div>
                                 </div>
                             </div>

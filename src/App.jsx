@@ -8,6 +8,7 @@ import Gallery from './Components/Gallery.jsx';
 import Testimonials from './Components/Testimonials.jsx';
 import Team from './Components/Team.jsx';
 import Contact from './Components/Contact.jsx';
+import { Analytics } from '@vercel/analytics/react';
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
       <Testimonials></Testimonials>
       <Team></Team>
       <Contact></Contact>
+      <Analytics />
     </>
   )
 }
