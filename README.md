@@ -1,12 +1,61 @@
-# React + Vite
+# TensorFleet Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi, this is Rohith Mani Varma, and this is my first React project - a responsive landing page for TensorFleet, an AI compute power provider focused on training AI/LLM models.
 
-Currently, two official plugins are available:
+## About This Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a modern, responsive landing page built using React and styled with Tailwind CSS. It showcases a fictional company called TensorFleet that provides high-performance computing infrastructure optimized for AI and machine learning workloads.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📱 Fully responsive design that works on all device sizes
+- 🎨 Modern UI with consistent branding and color scheme
+- ⚡ Interactive elements with hover effects and smooth transitions
+- 🧩 Modular component architecture
+- 🔄 Smooth scrolling navigation
+- 🖼️ Showcase sections for services, features, team members, and testimonials
+
+## Technologies Used
+
+- React.js
+- Tailwind CSS
+- Vite (for fast development and building)
+- React Icons
+
+## How to Run
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Run the development server:
+   ```
+   npm run dev
+   ```
+4. Build for production:
+   ```
+   npm run build
+   ```
+
+## Project Structure
+
+The project is organized into modular components, each handling a specific section of the landing page:
+
+- Header - Navigation and branding
+- HeroSection - Main banner with call-to-action
+- Features - Key features of the service
+- AboutUs - Company information
+- Services - Service offerings
+- Gallery - Visual showcase
+- Testimonials - Client feedback
+- Team - Team members
+- Contact - Contact form and information
+
+## Learning Outcomes
+
+Through this project, I've learned the fundamentals of React component architecture, styling with Tailwind CSS, responsive design principles, and creating an engaging user interface.
+
+---
+
+*This is a portfolio project and TensorFleet is a fictional company.*
