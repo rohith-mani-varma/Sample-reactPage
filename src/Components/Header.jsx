@@ -24,26 +24,26 @@ export default function Header() {
         <div className="nav-bar-right hidden md:block">
             <ul className="flex space-x-8">
                 <li>
-                    <a href="#" className="relative group pb-1">Features
+                    <a href="#features" className="relative group pb-1">Features
                         <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-gradient-to-r from-blue-300 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
                     </a>
                 </li>
-                <li><a href="#" className="relative group pb-1">About
+                <li><a href="#about" className="relative group pb-1">About
                     <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-gradient-to-r from-blue-300 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a></li>
-                <li><a href="#" className="relative group pb-1">Services
+                <li><a href="#services" className="relative group pb-1">Services
                     <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-gradient-to-r from-blue-300 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a></li>
-                <li><a href="#" className="relative group pb-1">Gallery
+                <li><a href="#gallery" className="relative group pb-1">Gallery
                     <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-gradient-to-r from-blue-300 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a></li>
-                <li><a href="#" className="relative group pb-1">Testimonials
+                <li><a href="#testimonials" className="relative group pb-1">Testimonials
                     <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-gradient-to-r from-blue-300 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a></li>
-                <li><a href="#" className="relative group pb-1">Team
+                <li><a href="#team" className="relative group pb-1">Team
                     <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-gradient-to-r from-blue-300 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a></li>
-                <li><a href="#" className="relative group pb-1">Contact
+                <li><a href="#contact" className="relative group pb-1">Contact
                     <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-gradient-to-r from-blue-300 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a></li>
             </ul>
@@ -53,13 +53,13 @@ export default function Header() {
     {isMenuOpen && (
         <div className="md:hidden bg-white py-4 px-6 shadow-lg absolute w-full z-40">
             <ul className="flex flex-col space-y-4 text-black">
-                <li><a href="#" className="block py-2">Features</a></li>
-                <li><a href="#" className="block py-2">About</a></li>
-                <li><a href="#" className="block py-2">Services</a></li>
-                <li><a href="#" className="block py-2">Gallery</a></li>
-                <li><a href="#" className="block py-2">Testimonials</a></li>
-                <li><a href="#" className="block py-2">Team</a></li>
-                <li><a href="#" className="block py-2">Contact</a></li>
+                <li><a href="#features" className="block py-2">Features</a></li>
+                <li><a href="#about" className="block py-2">About</a></li>
+                <li><a href="#services" className="block py-2">Services</a></li>
+                <li><a href="#gallery" className="block py-2">Gallery</a></li>
+                <li><a href="#testimonials" className="block py-2">Testimonials</a></li>
+                <li><a href="#team" className="block py-2">Team</a></li>
+                <li><a href="#contact" className="block py-2">Contact</a></li>
             </ul>
         </div>
     )}
