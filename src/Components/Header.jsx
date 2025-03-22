@@ -1,7 +1,7 @@
 export default function Header() {
     return(
     <>
-    <div className="nav-bar bg-white text-black h-15 w-screen p-2.5 flex justify-between items-center">
+    <div className="nav-bar bg-white text-black h-15 w-screen p-2.5 flex justify-between items-center sticky top-0 z-50 shadow-sm">
         <h1 className="capitalize font-extrabold">REACT LANDING PAGE</h1>
         <div className="nav-bar-right">
             <ul className="flex space-x-8">
