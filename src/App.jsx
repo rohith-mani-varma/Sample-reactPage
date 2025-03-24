@@ -9,6 +9,8 @@ import Testimonials from './Components/Testimonials.jsx';
 import Team from './Components/Team.jsx';
 import Contact from './Components/Contact.jsx';
 import { Analytics } from '@vercel/analytics/react';
+import Credits from './Components/Credits.jsx';
+
 function App() {
 
   return (
@@ -22,6 +24,7 @@ function App() {
       <Testimonials></Testimonials>
       <Team></Team>
       <Contact></Contact>
+      <Credits></Credits>
       <Analytics />
     </>
   )
