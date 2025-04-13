@@ -24,7 +24,7 @@ export default function Gallery() {
         Explore our state-of-the-art data centers and GPU clusters powering the world's most advanced AI models. TensorFleet's infrastructure is designed for maximum performance, reliability, and scalability.
       </p>
 
-      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 max-w-6xl mx-auto">
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 px-4 max-w-6xl mx-auto">
         {images.map((src, index) => (
           <div key={index} className="overflow-hidden rounded-lg shadow-md group">
             <img

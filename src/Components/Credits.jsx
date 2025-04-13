@@ -3,7 +3,7 @@ export default function Credits(){
     
     return(
         <footer className="bg-gray-900 text-white py-8">
-            <div className="max-w-6xl mx-auto px-6 lg:px-12">
+            <div className="max-w-7xl mx-auto px-6 lg:px-12">
                 <div className="flex flex-col items-center justify-center text-center">
                     <h2 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 mb-4">Portfolio Project</h2>
                     

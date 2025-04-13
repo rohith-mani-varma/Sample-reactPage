@@ -2,8 +2,8 @@ import img from "/Aboutimg.jpeg";
 export default function AboutUs(){
 
     return (
-        <section id="about">
-            <div className="container h-auto p-10 bg-white">
+        <section id="about" className="relative w-screen">
+            <div className="container relative w-screen max-w-none h-auto p-10 bg-white">
                 <h2 className="font-bold text-4xl text-black relative inline-block after:content-[''] after:absolute after:left-[10%] after:bottom-[-8px] after:w-[80%] after:h-1 after:bg-gradient-to-r after:from-blue-600 after:to-purple-600 mb-12">About Us</h2>
                 <div className="flex flex-col md:flex-row gap-8 mt-6">
                     <div className="md:w-1/2">
